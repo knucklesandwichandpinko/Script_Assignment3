@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Styles/style.css">
+    <script src="./script.js" defer></script>
+    <title>Ben's Pizza Order Form</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Ben's Pizza Order Form</h1>
+        </header>
+        <p id="student-info"></p>
+
+        <div class="pizza-images">
+           
+            <img src="./1.jpeg" alt="Pizza 1">
+            <img src="./2.webp" alt="Pizza 2">
+            <img src="./3.jpeg" alt="Pizza 3">
+            <img src="./4.webp" alt="Pizza 4">
+        </div>
+
+        <!-- Your Pizza Order Form -->
+        <form id="pizza-form">
+            
+            <label for="pizza-size">Pizza Size:</label>
+            <select id="pizza-size" name="pizza-size">
+                <option value="small">Small</option>
+                <option value="medium">Medium</option>
+                <option value="large">Large</option>
+            </select>
+
+            <fieldset>
+                <legend>Toppings:</legend>
+                <label><input type="checkbox" name="topping" value="pineapple"> Pineapple</label>
+<label><input type="checkbox" name="topping" value="bacon"> Bacon Rainbows</label>
+<label><input type="checkbox" name="topping" value="unicorn-tears"> Unicorn Tears</label>
+<label><input type="checkbox" name="topping" value="glitter"> Edible Glitter</label>
+<label><input type="checkbox" name="topping" value="bubblegum"> Bubblegum Bliss</label>
+<label><input type="checkbox" name="topping" value="cookie-dough"> Cookie Dough Delight</label>
+<label><input type="checkbox" name="topping" value="alien-anchovies"> Alien Anchovies</label>
+
+                
+            </fieldset>
+
+            <fieldset>
+                <legend>Delivery Option:</legend>
+                <label><input type="radio" name="delivery" value="pickup" checked> Pickup</label>
+                <label><input type="radio" name="delivery" value="delivery"> Delivery</label>
+            </fieldset>
+
+            <button type="button" onclick="submitOrder()">Order Pizza</button>
+        </form>
+
+        <!-- Display pizza description -->
+        <div id="pizza-description"></div>
+    </div>
+
+    <footer class="blue-footer">
+        <ul>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Instagram</a></li>
+        </ul>
+    </footer>
+
+   
+</body>
+</html>

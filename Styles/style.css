@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #3498db; 
+    color: #fff; 
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #333;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+header {
+    background-color: #2980b9; 
+    padding: 10px;
+    text-align: center;
+}
+
+.pizza-images {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.pizza-images img {
+   height: 400px;
+   width: 400px;
+   
+   
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+form {
+    margin-top: 20px;
+}
+
+fieldset {
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: #3498db; 
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9; 
+}
+
+.blue-footer {
+    background-color: #2980b9; 
+    padding: 10px;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    margin-right: 10px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
